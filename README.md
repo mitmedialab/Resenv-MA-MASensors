@@ -1,5 +1,6 @@
 # Resenv-MA-MASensors
 
+This program connects to several biosignal sensors. It provides capabilities for real-time data progressing, streaming and storing to .csv files. The currently supported sensors are Empathica E4, Bioharness Zephyr, Intraface Facial Feature Detection, and the MUSE EEG Headband. 
 
 # Run code: 
 ```
