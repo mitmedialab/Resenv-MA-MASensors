@@ -5,8 +5,8 @@
 
 *.pydevproject
 
-log
+log/
 
-CollectedData
+CollectedData/
 
 Intraface
