@@ -6,8 +6,8 @@
 python Main.py <output_file_prefix>
 ```
 
-# Edit which sensors are used: 
-In SensorCellectionServer.py edit the parameter
+## Edit which sensors are used 
+In SensorCellectionServer.py edit the parameter:
 ```
 # Edit here what sensors are used
 use_E4_L = False
@@ -20,7 +20,8 @@ use_Muse = False
 use_real_time_processing = False
 ```
 
-# Edit Bioharness Bluetooth port
+## Edit Bioharness Bluetooth port
+In SensorCellectionServer.py edit the parameter:
 ```
 Edit here Bioharness Bluetooth port information 
 # pair device with you computer, code 1234
@@ -28,28 +29,31 @@ Edit here Bioharness Bluetooth port information
 BIOHARNESS_COM_PORT = "EDIT"
 ```
 
-# Edit E4 Server information
+## Edit E4 Server information
+In SensorCellectionServer.py edit the parameter:
 ```
 # Edit here E4 Server information 
 E4_SERVER_IP = "EDIT" 
 E4_SERVER_PORT = EDIT
 ```
 
-# Edit Interface Server information 
+## Edit Interface Server information 
+In SensorCellectionServer.py edit the parameter:
 ```
 # Edit here Interface Server information 
 INTRAFACE_SERVER_IP = "EDIT"
 INTRAFACE_SERVER_PORT = EDIT
 ```
 
-# Edit collected data path
+## Edit collected data path
+In SensorCellectionServer.py edit the parameter
 ```
 # Edit here the path where the collected data is store
 DATA_BASE_PATH = "./CollectedData/"
 ```
 
-# Edit port for signal processing server
-this is the port were your service can receive real-time data streams
+## Edit port for signal processing server
+This is the port were your service can subscribe to real-time data streams. In SensorCellectionServer.py edit the parameter:
 ```
 # Edit here the port for signal processing server
 PROCESSING_SERVER_IP = "127.0.0.1"
