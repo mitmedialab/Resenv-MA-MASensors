@@ -1,0 +1,12 @@
+
+*.pyc
+
+*.project
+
+*.pydevproject
+
+log
+
+CollectedData
+
+Intraface
