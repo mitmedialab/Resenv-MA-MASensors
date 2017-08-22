@@ -64,8 +64,8 @@ PROCESSING_SERVER_PORT = 12346
 Example data format:
 ```json
 {
-	"type": "respiration"
-	"timestamp": 0.00
+	"type": "respiration",
+	"timestamp": 0.00,
 	"value":[0]
 }
 ```
