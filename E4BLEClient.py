@@ -1,7 +1,7 @@
 '''
 Created on Mar 3, 2016
 
-@author: Butzik
+@author: nanzhao@media.mit.edu, azaria@media.mit.edu
 '''
 from twisted.protocols.basic import LineReceiver
 from twisted.internet.protocol import ReconnectingClientFactory

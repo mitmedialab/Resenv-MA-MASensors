@@ -1,7 +1,7 @@
 '''
 Created on Mar 9, 2016
 
-@author: azaria@media.mit.edu, nanzhao@media.mit.edu
+@author: nanzhao@media.mit.edu, azaria@media.mit.edu
 '''
 import json
 import logging 

@@ -156,11 +156,11 @@ def main(command_args, start_logging = True):
     use_E4_L = False
     use_E4_R = False
     use_Bioharness = True
-    use_Intraface = True
+    use_Intraface = False
     use_Intraface_only_record = False
-    use_Muse = True
+    use_Muse = False
     # Edit here whether to use real-time processing
-    use_real_time_processing = True
+    use_real_time_processing = False
     
     #command_args = parse_commandline_arguments()
     logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)-8s %(message)s', datefmt='%m-%d %H:%M')

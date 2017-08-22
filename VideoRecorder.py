@@ -3,7 +3,7 @@ Created on Mar 24, 2016
 
 This script is a backup solution to store for post-hoc facial analysis
 The code has some major problems as framerate cannot reach higher than 10fps
-The stored video can also not be opened on any device. It need to be re-saved with quicktime
+The stored videos need to be re-saved with quicktime
 TODO: This script needs to be redone
 
 @author: nanzhao@media.mit.edu

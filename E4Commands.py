@@ -1,7 +1,7 @@
 '''
 Created on Mar 4, 2016
 
-@author: Butzik
+@author: nanzhao@media.mit.edu, azaria@media.mit.edu
 '''
 # TODO: handle a problem with the fact that REASON has spaces in it 
 

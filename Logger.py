@@ -1,7 +1,7 @@
 '''
 Created on Mar 8, 2016
 
-@author: Butzik
+@author: nanzhao@media.mit.edu, azaria@media.mit.edu
 '''
 
 import os
