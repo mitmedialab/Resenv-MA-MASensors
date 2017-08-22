@@ -162,7 +162,7 @@ def main(command_args, start_logging = True):
     # Edit here whether to use real-time processing
     use_real_time_processing = False
     
-    #command_args = parse_commandline_arguments()
+    # debug logging
     logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)-8s %(message)s', datefmt='%m-%d %H:%M')
     
     
