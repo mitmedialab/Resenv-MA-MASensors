@@ -1,6 +1,6 @@
 # Resenv-MA-MASensors
 
-This program connects to several biosignal sensors. It provides capabilities for real-time data progressing, streaming and storing to .csv files. The currently supported sensors are Empathica E4, Bioharness Zephyr, Intraface Facial Feature Detection, and the MUSE EEG Headband. 
+This program connects to several biosignal sensors. It provides capabilities for real-time data progressing, streaming and storing to .csv files. Currently it supports [Empathica E4](https://www.empatica.com/e4-wristband), [Bioharness Zephyr](https://www.zephyranywhere.com/media/download/bioharness3-user-manual.pdf), [Intraface Facial Feature Detection](http://www.humansensing.cs.cmu.edu/intraface/), and the [MUSE EEG Headband](http://www.choosemuse.com/). 
 
 # Run code: 
 ```
@@ -60,3 +60,14 @@ This is the port were your service can subscribe to real-time data streams. In S
 PROCESSING_SERVER_IP = "127.0.0.1"
 PROCESSING_SERVER_PORT = 12346
 ```
+
+Example data format:
+```json
+{
+	"type": "respiration"
+	"timestamp": 0.00
+	"value":[0]
+}
+```
+
+Currently supported types for Bioharness Zephyr are "respiration_rate" and "rr"
