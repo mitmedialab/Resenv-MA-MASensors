@@ -61,7 +61,7 @@ PROCESSING_SERVER_IP = "127.0.0.1"
 PROCESSING_SERVER_PORT = 12346
 ```
 
-Example data format:
+Example JSON package for real-time data streaming:
 ```json
 {
 	"type": "respiration",
